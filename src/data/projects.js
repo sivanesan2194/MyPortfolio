@@ -1,0 +1,58 @@
+export const projectsData = [
+  {
+    id: "virtual-tuition-app",
+    title: "Virtual Tuition Management Platform",
+    subtitle: "Cross-platform Android ecosystem with interactive learning tools and automated billing",
+    category: "Android",
+    description: "An integrated Android app currently under active development, designed for private tutoring centers. It features Google OAuth authentication, real-time Firestore synchronization, collaborative whiteboard tools ('Drawpoint'), embedded Jitsi video classrooms, and automated Razorpay payment integration with a subscription feature-decay access control system.",
+    problemSolution: "Eliminates administrative overhead for tutors while providing students with an all-in-one portal for live classes, study materials, and fee management with automated access controls.",
+    techStack: ["Java", "Android SDK", "Firebase Auth", "Cloud Firestore", "Razorpay SDK", "Jitsi Meet SDK"],
+    liveDemoUrl: "https://github.com/sivanesan2194/VirtualTuitionApp",
+    githubUrl: "https://github.com/sivanesan2194/VirtualTuitionApp",
+    featured: true,
+    highlights: ["Under Active Development","Google Firebase Auth","Jitsi Video Integration","Real-time Firestore Sync","Razorpay Payment Gateway"],
+    gradient: "from-green-500/20 via-emerald-500/10 to-teal-500/20"
+  },
+  {
+    id: "connect-us",
+    title: "Connect Us - Location Sharing & Tracking",
+    subtitle: "Real-time group location sharing and tracking application",
+    category: "Android",
+    description:"Android-based location sharing and tracking application that allows users to create groups, invite members through shareable links, and share their location with authorized group members. The application can be used for group coordination and manager-employee location monitoring.",
+    problemSolution:"Solves the difficulty of coordinating and monitoring group members by providing a centralized platform for creating groups, joining through shared links, and tracking member locations.",
+    techStack: ["Android Studio","Java","Firebase Authentication","Firebase Realtime Database","Google Maps API"],
+    liveDemoUrl: "https://example.com/demo/connect-us",
+    githubUrl: "https://github.com/example/connect-us",
+    featured: true,
+    highlights: ["Location Sharing","Real-time Tracking","Group Management","Shareable Group Links"],
+    gradient: "from-purple-500/20 via-fuchsia-500/10 to-pink-500/20"
+  },
+  {
+    id: "gym-management-system",
+    title: "Gym Management System",
+    subtitle: "Full-stack web application for efficient gym member and membership management",
+    category: "WebApp",
+    description: "A web-based Gym Management System designed for gym administrators to manage member registration, customer records, membership renewals, expiry tracking, search, bulk deletion, and CSV data export through a centralized dashboard.",
+    problemSolution: "Replaces manual gym record management with a centralized digital system that simplifies member management, automatically tracks expired and soon-to-expire memberships, and reduces administrative effort.",
+    techStack: ["React.js", "CSS Modules", "Python", "FastAPI", "MySQL", "phpMyAdmin", "Axios", "REST API"],
+    liveDemoUrl: "https://beast-force.vercel.app/",
+    githubUrl: "https://github.com/sivanesan2194/BeastForce",
+    featured: true,
+    highlights: ["Member Registration", "Membership Renewal", "Expiry Tracking", "Search & Filtering", "Bulk Delete", "CSV Export"],
+    gradient: "from-indigo-500/20 via-purple-500/10 to-pink-500/20"
+  },
+  {
+    id: "expense-manager",
+    title: "Expense Manager - Core Java & Analytics",
+    subtitle: "Personal budget tracker with stream analytics & automated testing",
+    category: "Tools",
+    description: "A modular Java CLI tool designed with a 3-tier architecture to track financial transactions, group expenses by category, compute remaining budget, and generate real-time stream analytics.",
+    problemSolution: "Enforced strict separation of concerns and test isolation using JUnit 5, achieving a 100% core service logic test pass rate.",
+    techStack: ["Java 17", "JUnit 5", "Java Streams", "File I/O", "OOP"],
+    liveDemoUrl: "https://codespaces.new/sivanesan2194/ExpenseManager",
+    githubUrl: "https://github.com/sivanesan2194/ExpenseManager",
+    featured: false,
+    highlights: ["3-Tier Layered Design", "Stream Analytics API", "Automated JUnit 5 Suite", "File Persistence Storage"],
+    gradient: "from-orange-500/20 via-amber-500/10 to-yellow-500/20"
+  },
+];
