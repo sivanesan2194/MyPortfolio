@@ -21,8 +21,8 @@ export const projectsData = [
     description:"Android-based location sharing and tracking application that allows users to create groups, invite members through shareable links, and share their location with authorized group members. The application can be used for group coordination and manager-employee location monitoring.",
     problemSolution:"Solves the difficulty of coordinating and monitoring group members by providing a centralized platform for creating groups, joining through shared links, and tracking member locations.",
     techStack: ["Android Studio","Java","Firebase Authentication","Firebase Realtime Database","Google Maps API"],
-    liveDemoUrl: "https://example.com/demo/connect-us",
-    githubUrl: "https://github.com/example/connect-us",
+    liveDemoUrl: "https://github.com/sivanesan2194/ConnectUs",
+    githubUrl: "https://github.com/sivanesan2194/ConnectUs",
     featured: true,
     highlights: ["Location Sharing","Real-time Tracking","Group Management","Shareable Group Links"],
     gradient: "from-purple-500/20 via-fuchsia-500/10 to-pink-500/20"
